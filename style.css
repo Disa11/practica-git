@@ -1,0 +1,41 @@
+h1, h2 {
+    color: aqua; 
+}
+ol > li {
+    color: blueviolet;
+}
+
+input[type==text] {
+    background-color: red;
+}
+
+a::before{
+    content: "\21d2 click here xd";
+}
+p::selection {
+    background-color: aqua;
+}
+
+button:hover {
+    background-color: aqua;
+}
+button {
+    background-color: red;
+    width: 6rem;
+    height: 5rem;
+}
+p{
+    font-size: 0.5rem;
+    color: black;
+}
+
+@media print {
+    .only {
+        display: none;
+    }
+}
+@media (min-width: 500px) {
+    .lol {
+        background-color: red;
+    }
+}
